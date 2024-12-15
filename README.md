@@ -4,9 +4,9 @@ This Case Study investigates features that influences the production output of w
 
 ## Project Objectives
 - Identify the influential features that influence the website production output
-- Train and develop a best subset regression model to predict the target variable i.e. website production output\
+- Train and develop a best subset regression model to predict the target variable i.e. website production output
 - Evaluate the model using diagnostic checks to identify influential outliers and assess multicollinearity
-- Evaluating the build model through K-cross validation
+- Evaluate the build model performance through K-cross validation
 
 ## Dataset Description
 | Variable Number | Variable Name        | Description                                                              |
@@ -32,7 +32,7 @@ This Case Study investigates features that influences the production output of w
 
 ## Key Insights
 - Significant Predictors: The backlog of orders, team experience, and process change were the most influential variables influencing production output
-- Prodction Trends: When the process changes happened, production increased significantly during second and third quarters of 2002
+- Production Trends: When the process changes happened, production increased significantly during second and third quarters of 2002
 - Subset Model: Trained and developed best subset model using step function
 - Identified Outliers: Using Leverage and student residuals, identified potential outliers in X and Y direction
 - Influential Points: Observations with high DFBETAS, Cook’s Distance and DIFITS were flagged and removed to improve model accuracy
@@ -41,5 +41,5 @@ This Case Study investigates features that influences the production output of w
 
 ## Learning Outcomes
 - Gained hands-on-experience with regression modeling techniques and R programming language
-- Applied and learned various hypothesis testing (Anova, t-test), diagnostics checks(DFBETAS, Cook’s Distance), and addressed Multicollinearity(VIF) to evaluate the model quality and performance
+- Applied and learned hypothesis testing (Anova, t-test), diagnostics checks(DFBETAS, Cook’s Distance), and addressed Multicollinearity(VIF) to evaluate the model quality and performance
 - Developed skills in identifying and mitigating outliers and multicollinearity in regression analysis
